@@ -1,0 +1,28 @@
+.Form {
+    margin: 100px auto;
+    border: 2px solid black;
+    width: 500px;
+}
+
+.Form h1 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.Form label {
+    margin-top: 10px;
+    padding-left: 150px;
+}
+
+.Form button {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 150px;
+    padding: 0 74px;
+}
+
+ul {
+    margin-left: 150px;
+    color: red;
+}
