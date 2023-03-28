@@ -34,6 +34,14 @@ export default class DefaulLogin extends React.Component {
 
         if (message.length > 0) {
             this.setState({ errors: message })
+        } else {
+            alert(`
+            email : ${this.state.email}
+            password : ${this.state.password}
+            `)
+            this.setState({
+                errors: []
+            })
         }
     }
 
@@ -48,12 +56,12 @@ export default class DefaulLogin extends React.Component {
                     <label>
                         Email <br />
                         <input type="email" name="email" label="Email" placeholder="Email"
-                            onChange={(e) => this.setState({ email: e.target.value }, () => console.log(this.state.email))} />
+                            onChange={(e) => this.setState({ email: e.target.value })} />
                     </label><br />
                     <label>
                         Password <br />
                         <input type="password" name="password" label="password" placeholder="Password"
-                            onChange={(e) => this.setState({ password: e.target.value }, () => console.log(this.state.password))} />
+                            onChange={(e) => this.setState({ password: e.target.value })} />
                     </label><br />
                     <button type="submit">Login</button>
                 </form>
