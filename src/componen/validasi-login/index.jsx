@@ -1,11 +1,12 @@
-import DefaulLogin from "./defaul-login";
+import Componenbrita from "../membuat-search-api.jsx/search";
 
 const Form = () => {
     return (
         <div>
-            <DefaulLogin />
+            <Componenbrita />
         </div>
     )
 }
+
 
 export default Form;
