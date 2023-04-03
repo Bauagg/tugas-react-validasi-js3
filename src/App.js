@@ -1,9 +1,12 @@
-import Form from "./componen/validasi-login";
+import BelajarRoute from "./componen/belajar-Router/membuat-router";
+
+
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <BelajarRoute />
+
 
     </div>
   );
