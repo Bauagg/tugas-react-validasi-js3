@@ -1,13 +1,8 @@
-import BelajarRoute from "./componen/belajar-Router/membuat-router";
-
-
-
+import ComponenRedux from "./componen/react-redux/react-redux";
 function App() {
   return (
     <div className="App">
-      <BelajarRoute />
-
-
+      <ComponenRedux />
     </div>
   );
 }
