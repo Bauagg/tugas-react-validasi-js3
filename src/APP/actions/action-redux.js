@@ -1,4 +1,4 @@
-import * as counter from "./constanta/constanta"
+import * as counter from "./constanta/constanta";
 
 export const getPlus = (value) => {
     return {
@@ -15,10 +15,10 @@ export const getMinus = (value) => {
     }
 }
 
-// export const getMinusCek = (value) => {
-//     return (dispatch, getState) => {
-//         if (getState().counter.users > 0) {
-//             dispatch(getMinus(value))
-//         }
-//     }
-// }
+export const getMinusCek = (value) => {
+    return (dispatch, useState) => {
+        if (useState().items.users > 0) {
+            dispatch(getMinus(value))
+        }
+    }
+}
